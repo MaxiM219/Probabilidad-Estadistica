@@ -1,0 +1,34 @@
+Ejercicio 1
+P(R1R2|B) = P(B|R1R2) * P(R1R2) / P(B) = 0.30583
+
+Ejercicio 2
+Solucion numerica haciendo cuentas
+1 = 1.00000
+E[X|Y=y] = y**2/2    pues es uniforme (0, y^2)
+E[X] = 1.50000       hacer cuentas o usar E[X]=E[E[Y|X]]
+
+Ejercicio 3
+Hacer graficos y medir áreas, quedan paralelogramos
+F_W(w) = w/2 1{0<=w<2} + 1{2<=w}; luego W~U(0, 2)
+
+Ejercicio 4 final PyE
+Sea mu = EX = 1/P, mu_est = X_prom
+E[mu_est] = mu insesgado
+var(mu_est) = 1/n var(X) = 1/n (1-p)/p**2 = ecm(mu_est, mu)
+
+Ejercicio 5 final PyE
+Delta(X) = 1 {t_obs notin +-tlim}
+tobs = -1.85717
+tlim = 2.04523
+pval(x) = 0.07347
+No hay evidencia para rechazar H0
+
+Ejercicio 4 final Industriales, ej 5 parcial
+E[X] = 5.30000
+var(X) = 0.81000
+P(Xprom < 5.5) = P(Suma < n*5.5) = 0.90879 sin corr cont
+P(Xprom < 5.5) = P(Suma < n*5.5-0.5) = 0.89265 con corr cont
+
+Ejercicio 4 parcial
+C|Nt=5 ~ Bin(5, p = 1/2 / (1+5/4+1/2)
+P( (C|Nt=5) = 0) = 0.36665
