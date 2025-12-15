@@ -1,0 +1,24 @@
+Ejercicio 1
+uno = 1.00000
+P(X1 = 2|S=6 U S=9) = P(222|S=6 U S9) = 0.40000
+
+Ejercicio 2
+cov(X+Y-2,  (3X + Y − 4)/2 ) = c(X, 1.5X) + c(X, Y/2) + c(Y, 1.5X) + c(Y, Y/2)
+= 1.5 var(X) + 0.5 var(Y) = 2 * var(X) = 5.83333
+
+Ejercicio 3
+Hacer graficos y medir áreas, quedan triángulos
+F_W(w) = 1 - (4-w)**2/16 1{0<=w<4} + 1{w<=1}, es una triangular (0, 0, 4)
+
+Ejercicio 4 parcial
+Por teorema superposición, el PB y el PPP generados son indep.
+P(X3 = I, T3 > 5) = 0.667 * 0.223 = 0.14875
+
+Ejercicio 5 parcial
+S70 ~ Gamma(70, 2), por TCL la aproximamos por normal
+mu = 35.00000; var = 17.50000; des = 4.18330
+Aproximando por normal
+P(S <= s025) ~= P((S-mu)/des < z025) = Phi(-0.6744897501960817) = -0.6744897501960817
+s025 ~= 32.17841
+Usando la Gamma para comparar
+s025 = 32.09500

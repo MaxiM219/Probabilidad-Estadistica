@@ -1,0 +1,40 @@
+Ejercicio 1
+P(R1R2|R3) = P(R3|R1R2)P(R1R2) / P(R3)
+P(R1R2) = 0.30000, P(R3) = 0.61333, P(R3|R1R2) = 0.33333
+P(R1R2|R3) = 0.16304
+
+Ejercicio 2
+cov(X+Y-2,  2X-Y) = c(X, 2X) + c(X, -Y) + c(Y, 2X) + c(Y, -Y)
+= 2 var(X) - var(Y) = var(X) = 1.25000
+
+Ejercicio 3
+Hacer graficos y medir áreas, quedan triángulos
+F_W(w) = (w+2)**2/16 1{-2<=w<2} + 1{w<=2}, es una triangular (-2, -2, 2)
+
+Ejercicio 4 parcial
+1-(7/8)**n >= 0.95
+n = 22.43, redondea a 23.0
+
+Ejercicio 5 parcial
+P(X<0) = P(Z< (0-0.2)/sigma ) =  0.03593 --> -0.2/sigma = z_0.03593
+sigma = 0.11111; sigma2 = 0.01235
+
+Ejercicio 4 final
+uno = 1.00000
+es una pareto con xm=1, alpha = theta-1
+t_mv = (3/suma log xi) + 1    (es famreg, sale derivando logL
+t_MV = 3.52818 sol analitica
+t_MV = 3.52814 sol numerica
+q = P(T_4 > 2), por invarianza ...
+qmv = 0.17336
+
+Ejercicio 5 final
+Intervalo para la media (1/lambda), para la observacion :
+A = 0.06509
+B = 0.41064
+
+Ejercicio 4 final industriales
+usar funcion para samplear sin repo en R
+simular y estimar P(A|B) como #(A, B) / #B
+
+Ejercicio 5 final industriales
